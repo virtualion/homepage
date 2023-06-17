@@ -198,6 +198,12 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 display: inline-block;
 }
 
+.bgg_2{
+    background: none repeat scroll 0 0 #3498db;
+display: inline-block;
+color: #fff;
+}
+
 /*************************************************
 Main Nav Style
 *************************************************/
