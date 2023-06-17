@@ -1,0 +1,86 @@
+
+
+/*----------------------------------------------------
+    Color
+-------------------------------------------------------*/
+
+.logo ._u, .item_box:hover i,
+.team .member_info i,
+.foot_logo ._u, .item_box h3,
+.logo ._u, .postby strong,
+.site-header .navbar-nav > li > a,
+.team .social ul li a,
+.service_box h4, .learn-more,
+.team .member_info i,
+.comment_info h4 a:hover:not(.reply),
+#primary a, .widget-post .media-body a,
+.entry h3 a, .widget h3, .share-icon  li a,
+#primary a:before,
+.foot_logo ._u {
+    color: #336e7b;
+}
+
+/*----------------------------------------------------
+    Background Color
+-------------------------------------------------------*/
+
+::-moz-selection { /* Code for Firefox */
+    background: #336e7b;
+    color: #fff;
+}
+
+::selection {
+    background: #336e7b;
+    color: #fff;
+}
+
+.logo ._bg,
+#about .head,
+#services .head,
+.pf-thumb .image-popup,
+.planContainer .button:hover,
+#plans .team .button,
+#portfolio .head, .buy-now,
+#blog .head,a.next-section,
+.service_hover, .common_btn,
+#contact input[type="submit"],
+#contact .submit, .footer_top,
+#priceplans .head, a.top-section,
+.team:hover .member_info,
+.post-nav li.active a, .dropcap,
+.cf-submit input:hover,
+.comment_info h4 .reply:hover,
+.navbar-inverse .navbar-toggle,
+#contact .head {
+    background-color: #336e7b;
+}
+
+.common_btn:hover,
+.common_btn:focus,
+#contact input[type="submit"]:hover,
+#contact input[type="submit"]:focus,
+#contact .submit:hover,
+#contact .submit:focus {
+    background-color: #336e7b;
+}
+
+/*----------------------------------------------------
+    Border Color
+-------------------------------------------------------*/
+
+.cf-submit input:hover {
+    border-color: #336e7b;
+}
+
+.header, .post-meta,
+.item_box:hover {
+    border-bottom-color: #336e7b;
+}
+
+#primary li:before {
+    border-right-color: #336e7b;
+}
+
+blockquote {
+    border-left-color: #336e7b;
+}
