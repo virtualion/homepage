@@ -138,7 +138,7 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: contain;
+    background-size: cover;
     border-bottom: 4px solid #3498db;
 	/*-webkit-transform: translate3d(0, 0, 0);*/;
 }
