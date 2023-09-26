@@ -11,12 +11,52 @@ html {
     min-height: 100%;
 }
 
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 body {
     color: #777777;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
     padding-bottom: 0;
     min-height: 100%;
 }
+
+
+
+
+@charset "UTF-8";
+
+
+
+
+/* ボタンのスタイル */
+.buttonOutline {
+  display: flex;
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
+  align-items: center !important;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
+  height: 64px;
+  padding: 8px 24px;
+  font-size: 16px;
+  color: #2A323A;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: transparent;
+  border: 2px solid #2A323A;
+}
+
+@media (any-hover: hover) {
+  .buttonOutline {
+    transition: background-color 0.2s;
+  }
+
+  .buttonOutline:hover {
+    background-color: #dcedd2;
+  }
+}
+
 /* CHANGEABLE STYLES
     -------------------------------------------------- */
 h1, h2, h3, h4, h5 {
@@ -48,7 +88,7 @@ h5 {
 }
 
 p {
-    font-family: lato;
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 300;
     margin: 0 0 10px;
@@ -258,7 +298,7 @@ Main Nav Style
     margin-left: 10px;
     width: 10px;
     height: 10px;
-    font-family: 'FontAwesome';
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
     content: "\f10c";
     font-size: 14px;
     color: #3498db;
@@ -426,7 +466,7 @@ a.top-section {
 }
 
 .page_title .border span {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #33485e;
@@ -912,7 +952,7 @@ text-shadow: 1px 2px 3px #000000;
     }
 
     p {
-        font-family: lato;
+        font-family: 'Noto Sans JP', 'Lato', sans-serif;
         font-size: .95em;
         font-weight: 300;
         margin: 0 0 10px;
@@ -1275,6 +1315,7 @@ parallax2
 
 .bgg_btn{
         text-align: center;
+
 }
 
 .shad{

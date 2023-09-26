@@ -75,6 +75,118 @@
 
     </head>
 
+
+
+
+
+
+
+
+<style>
+
+/* Three columns side by side */
+.column {
+  float: left;
+font-family: 'Noto Sans JP', 'Lato', sans-serif;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+font-family: 'Noto Sans JP', 'Lato', sans-serif;
+  }
+}
+
+
+body {
+    color: #777777;
+    font-family: 'Noto Sans JP', 'Lato', sans-serif;
+    padding-bottom: 0;
+    min-height: 100%;
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containerA {
+  padding: 16px;
+}
+
+
+/* Clear floats */
+.containerA::after, .rowA::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titleA {
+  color: grey;
+font-family: 'Noto Sans JP', 'Lato', sans-serif;
+}
+
+.buttonA {
+  border: none;
+font-family: 'Noto Sans JP', 'Lato', sans-serif;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #00aeef;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.rowA{
+padding 100px 100px 100px 100px;
+}
+
+.hito{
+    font-size: 20px !important;
+}
+
+.buttonA:hover {
+  background-color: #555;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <body>
         <div id="wrapper" class="main-wrapper">
 
@@ -171,8 +283,84 @@ Virtualion®（バーチャリオン）は、だれでも簡単な操作で展�
                         </p>
                     </div>
                     <div class="message">
-                        <p class="animate0">世の中には、眠っている文化財や美術品があります。そして、キュレーションスキルを持ちながら、それを活かす機会のない人々も多く存在します。Virtualionは、どこでもだれでもいつでも、展示を作って公開できるプラットフォームを開発しています。資料と人をつなぐことで、誰もが文化財や美術品と身近に触れ合うバーチャル時代の新たなミュージアムを創り上げることが我々の使命です。<br><br>バーチャリオン Virtualionは、国際日本文化研究センターや大阪大学といった研究機関と共同のオンライン・バーチャル展覧会開催実績を有しており、バーチャル展示の評価技法の開発や教育への利用や提案も行なっています。CEO以下役員は、博物館の展示設営を何度も行ってきました。現場での経験と、ミュージアム関連の幅広い人脈がVirtualionの最大の強みです。</p>
+                        <p class="animate0">世の中には、眠っている文化財や美術品があります。
+                        そして、キュレーションスキルを持ちながら、それを活かす機会のない人々も多く存在します。
+                        Virtualionは、どこでもだれでもいつでも、展示を作って公開できるプラットフォームを開発しています。
+                        資料と人をつなぐことで、誰もが文化財や美術品と身近に触れ合うバーチャル時代の新たなミュージアムを創り上げることが我々の使命です。
+                        <br><br>バーチャリオン Virtualionは、国際日本文化研究センターや大阪大学といった研究機関と共同のオンライン・バーチャル展覧会開催実績を有しており、バーチャル展示の評価技法の開発や教育への利用や提案も行なっています。
+                        CEO以下役員は、博物館の展示設営を何度も行ってきました。現場での経験と、ミュージアム関連の幅広い人脈がVirtualionの最大の強みです。
+                        
+                         </p>
 <!--<p class="bgg_btn"><a href="#">ABOUT US [LINK]</a></p>-->
+
+                       <!-- <div class="page_title"> <a href="members.html" class="buttonOutline">メンバー紹介</a> </div> -->
+
+
+<div class="container">
+<div class="row team_skills">
+                        <div class="page_title">
+                            <p class="border animate1"> <span>創業メンバー</span>
+                            </p>
+                        </div>
+  <div class="column">
+    <div class="card">
+      <img src="members/ikari.jpg" alt="Jane" style="width:100%">
+      <div class="containerA">
+        <h2 class="hito">五十里翔吾 <br>Shogo Ikari</h2>
+        <p class="titleA">CEO &amp; Founder</p>
+        <p>大阪大学基礎工学研究科修士課程修了、現在琉球大学理学部博士後期課程在学中。阪大総合学術博物館での勤務経験を元にVirtualion®を開発。</p>
+        <p>shogo.ikari@</p>
+        <p><a href="https://sites.google.com/view/jibahdenba/profile"><button class="buttonA">Find more</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="members/kobayashi.png" alt="Mike" style="width:100%">
+      <div class="containerA">
+        <h2 class="hito">小林祥一<br>Shoichi Koyabashi</h2>
+        <p class="titleA">COO &amp; Founder</p>
+        <p>大手通信メーカーセキュリティエンジニア。南アジアで瞑想の修行を修める。</p>
+        <p>shoichi.kobayashi@</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="members/ito.png" alt="John" style="width:100%">
+      <div class="containerA">
+        <h2 class="hito">伊藤謙<br>Ien Ito</h2>
+        <p class="titleA">Founder</p>
+        <p>京都大学博士（薬学）、薬剤師、学芸員。大阪大学総合学術博物館 講師、国際日本文化研究センター 客員准教授（2021年度）。ナショナルジオグラフィック・エクスプローラー。伊藤若冲の縁戚にあたり、アート研究も手がける。専門は、生薬学、本草博物学。</p>
+        <p>ken.ito@</p>
+
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="column">
+    <div class="card">
+      <img src="members/yonekura.jpg" alt="John" style="width:100%">
+      <div class="containerA">
+        <h2 class="hito">米倉豪志<br>Goushi Yonekura</h2>
+        <p class="titleA">CSO</p>
+        <p>起業家、作曲家。</p>
+        <p>goushi.yonekura@</p>
+
+      </div>
+    </div>
+  </div>
+-->
+
+</div>
+</div>
+
+
+
                     </div>
                     <div class="youtube">
                         <div class="youtube_wap">
@@ -638,8 +826,8 @@ Virtualion®（バーチャリオン）は、だれでも簡単な操作で展�
                     <div class="row">
                         <div id="slider" class="flexslider viewport">
                             <ul class="slides">
-                                <li><p class="bgg_2"><strong>#特許を取得</strong></p><a href="https://note.com/virtualion_jp/n/n04db97a52dc9" target="_blank"><img src="images/slider/large/img-10.jpg" alt=""></a></li>
-                                <li><p class="bgg_2"><strong>#香りミュージアム</strong></p><a href="https://note.com/virtualion_jp/n/n04db97a52dc9" target="_blank"><img src="images/slider/large/img-09.jpg" alt=""></a></li>
+                                <li><p class="bgg_2"><strong>#特許を取得</strong></p><a href="https://note.com/virtualion_jp/n/n04db97a52dc9" target="_blank"><img src="images/slider/large/img-10.png" alt=""></a></li>
+                                <li><p class="bgg_2"><strong>#香りミュージアム</strong></p><a href="https://note.com/virtualion_jp/n/n04db97a52dc9" target="_blank"><img src="images/slider/large/img-09.png" alt=""></a></li>
                                 <li><p class="bgg_2"><strong>#四国水族館・海洋堂・月刊ムーとのコラボ展示</strong></p><a href="https://note.com/virtualion_jp/n/n04db97a52dc9" target="_blank"><img src="images/slider/large/img-08.jpg" alt=""></a></li>
                                 <li><p class="bgg_2"><strong>#島根で講演</strong></p><a href="https://note.com/virtualion_jp/n/n7bd23908e4ec" target="_blank"><img src="images/slider/large/img-07.jpg" alt=""></a></li>
                               　<li><p class="bgg_2"><strong>#バーチャルミュージアムアーカイブをリリース</strong></p><a href="https://note.com/virtualion_jp/m/m3355bb97e759" target="_blank"><img src="images/slider/large/img-06.jpg" alt=""></a></li>
@@ -656,24 +844,24 @@ Virtualion®（バーチャリオン）は、だれでも簡単な操作で展�
                         </div>
                         <div id="carousel" class="flexslider custom_carousel">
                             <ul class="slides custome_caption">
-                                <li> <img src="images/slider/img-10.jpg" alt="">
+                                <li> <img src="images/slider/img-10.png" alt="">
                                     <div class="rscaption">
                                         <div class="content">
                                             <h5>特許を取得</h5>
-                                            <p>2023/07</p>
-                                            <a class="share fancybox" href="images/slider/large/img-10.jpg" data-fancybox-group="gallery" title="特許を取得">
+                                            <p>2023/9</p>
+                                            <a class="share fancybox" href="images/slider/large/img-10.png" data-fancybox-group="gallery" title="特許を取得">
                                                 <i class="fa fa-share-square-o"></i>
                                             </a>
                                         </div>
                                     </div>
                                 </li>
 
-                                <li> <img src="images/slider/img-09.jpg" alt="">
+                                <li> <img src="images/slider/img-09.png" alt="">
                                     <div class="rscaption">
                                         <div class="content">
                                             <h5>香りミュージアム</h5>
-                                            <p>2023/07</p>
-                                            <a class="share fancybox" href="images/slider/large/img-09.jpg" data-fancybox-group="gallery" title="香りミュージアム">
+                                            <p>2023/08</p>
+                                            <a class="share fancybox" href="images/slider/large/img-09.png" data-fancybox-group="gallery" title="香りミュージアム">
                                                 <i class="fa fa-share-square-o"></i>
                                             </a>
                                         </div>
