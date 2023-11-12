@@ -174,7 +174,7 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 .header {
     position: relative;
     width: 100%;
-    background: url(../images/headerbg.jpg)no-repeat center center fixed #34495e;
+    background: url(../images/headerbg.png)no-repeat center center fixed #34495e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
